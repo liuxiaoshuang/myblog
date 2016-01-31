@@ -1,0 +1,11 @@
+---
+title: "Blog try!"
+layout: post
+date: 2016-01-31 13:16
+tag: Blog
+#star: true
+---
+
+## Summary:
+
+This is my first blog.
