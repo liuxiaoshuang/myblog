@@ -11,8 +11,9 @@ img { width: 50%; margin: 0 auto; display: block; }
 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>  Hello! My name is Liu Xiaoshuang, and my English name is Philip. But normally，I would like to use the initials of my name which is Lxs on my social networking site.
-  I build up this blog for sharing my life and what I learned about machine learning, I hope more and more people would love it.</p>
+<p>&nbsp &nbsp Hello!</p>
+<p>&nbsp &nbsp My name is Liu Xiaoshuang, and my English name is Philip. But normally，I would like to use the initials of my name which is Lxs on my social networking site.</p>
+<p>&nbsp &nbsp I build up this blog for sharing my life and what I learned about machine learning, I hope more and more people would love it.</p>
 
 <h2>Information</h2>
 
