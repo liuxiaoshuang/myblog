@@ -28,12 +28,9 @@ layout: compress
     <body class="body">
         <div class="container">
             <header class="header">
-                <h1>刘晓双 de Blog<span>Share my life and machine learning </span></h1>
+                <h1>刘晓双 de 博客<span>Share my life and machine learning </span></h1>
                 <nav class="links">
-                    <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
-                    <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
-                    <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-                    <a href="#"><i class="fa fa-tumblr-square fa-3x"></i></a>
+					<!-- 社交链接 -->
                 </nav>
             </header>
             <div class="content">
@@ -42,44 +39,45 @@ layout: compress
                 <!-- cards -->
                 <div class="wrapper">
                     {% for post in site.posts %}
-                        <div class="card">
-                            <div class="card__container card__container--closed">
-                                <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200" preserveAspectRatio="xMidYMid slice">
-                                    <defs>
-                                    <clipPath id="{{ post.subtitle | slugify }}">
-                                <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
-                                </clipPath>
-                                </defs>
-                                <image clip-path="url(#{{ post.subtitle | slugify }})" width="1920" height="1200" xlink:href="{{ post.image }}"></image>
-                            </svg>
-                            <div class="card__content">
-                                <i class="card__btn-close fa fa-times"></i>
-                                <div class="card__caption">
-                                    <h2 class="card__title">{{ post.title }}</h2>
-                                    <p class="card__subtitle">{{ post.subtitle }}</p>
-                                </div>
-                                <div class="card__copy">
-                                    <div class="meta">
-                                        <img class="meta__avatar" src="{{ post.avatar }}" />
-                                        <span class="meta__author">{{ post.author }}</span>
-                                        <span class="meta__date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                                    </div>
-                                    {{ post.content }}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+					<div class="card">
+						<div class="card__container card__container--closed">
+							<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200" preserveAspectRatio="xMidYMid slice">
+								<defs>
+								<clipPath id="{{ post.subtitle | slugify }}">
+							<polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
+							</clipPath>
+							</defs>
+							<image clip-path="url(#{{ post.subtitle | slugify }})" width="1920" height="1200" xlink:href="{{ post.image }}"></image>
+							</svg>
+							<div class="card__content">
+								<i class="card__btn-close fa fa-times"></i>
+								<div class="card__caption">
+									<h2 class="card__title">{{ post.title }}</h2>
+									<p class="card__subtitle">{{ post.subtitle }}</p>
+								</div>
+								<div class="card__copy">
+									<div class="meta">
+										<img class="meta__avatar" src="{{ post.avatar }}" />
+										<span class="meta__author">{{ post.author }}</span>
+										<span class="meta__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+									</div>
+									{{ post.content }}
+								</div>
+							</div>
+						</div>
+					</div>
                 {% endfor %}
                 <!-- /cards -->
-            </div>
-        </div>
+				</div>
+			</div>
+		</div>
         <!-- /container -->
         <!-- JS -->
         <script src="js/vendors/trianglify.min.js"></script>
         <script src="js/vendors/TweenMax.min.js"></script>
         <script src="js/vendors/ScrollToPlugin.min.js"></script>
-        <script src="js/vendors/cash.min.js"></script>
+        <!-- <script src="js/vendors/cash.min.js"></script>
         <script src="js/card-modern-blog.min.js"></script>
-        <script src="js/modern-blog.min.js"></script>
+        <script src="js/modern-blog.min.js"></script> -->
     </body>
 </html>
