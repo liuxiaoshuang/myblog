@@ -1,18 +1,16 @@
 ---
 title:  "Who is Xiaoshuang?"
-subtitle: "Let me introduce myself"
+subtitle: "About me"
 author: "Lxs"
-avatar: "img/authors/wferr.png"
+avatar: "img/authors/lxs.png"
 image: "img/f.jpg"
-date:   2016-01-30 16:12:00
+date:   2016-01-31 10:33:00
 ---
 
-### Lxs?
-My name is Liu Xiaoshaung, and my English name is Philip. But mormally，I would like to use the initials of my name which is Lxs on my social networking site.
+### About Lxs
+My name is Liu Xiaoshaung, and my English name is Philip. But normally，I would like to use the initials of my name which is Lxs on my social networking site.
 
 ### About the Blog
-Welcome to my Blog.
-
+Welcome to my Blog!
 I'd like to share my life and what I learned about machine learning here.
-
 Hope more and more people would love it.
