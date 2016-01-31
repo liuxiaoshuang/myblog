@@ -1,6 +1,6 @@
-name: Liu Xiaoshuang
-bio: 'Welcome to my blog!'
-picture: 'assets/images/logo.jpg'
+name: John Doe
+bio: 'A Man who travels the world eating noodles'
+picture: 'assets/images/profile.jpg'
 
 url: http://sergiokopplin.github.io/indigo
 permalink: /:title/
