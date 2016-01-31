@@ -2,7 +2,7 @@ name: Lxs
 bio: 'Welcome to my blog!'
 picture: 'assets/images/profile.jpg'
 
-url: http://liuxiaoshuang.github.io/indigo
+url: http://liuxiaoshuang.github.io/myblog
 permalink: /:title/
 
 analytics: 'UA-MYANALYTICS'
