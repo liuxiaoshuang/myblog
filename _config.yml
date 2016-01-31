@@ -2,7 +2,7 @@ name: Lxs
 bio: 'Welcome to my blog!'
 picture: 'assets/images/profile.jpg'
 
-url: http://liuxiaoshuang.com
+url: http://sergiokopplin.github.io/indigo
 permalink: /:title/
 
 analytics: 'UA-MYANALYTICS'
@@ -14,7 +14,7 @@ linkedin: mylinkedin
 youtube: myyoutube
 spotify: myspotify
 github: mygithub
-email: myemail@gmail.com
+email: lxsbit@126.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 
