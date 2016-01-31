@@ -1,7 +1,13 @@
-source "https://rubygems.org"
+source 'http://rubygems.org'
 
-group :test do
-  gem "jekyll"
-  gem "html-proofer"
-  gem "rake"
-end
+gem 'github-pages'
+gem 'rake'
+gem 'pygments.rb'
+gem 'jekyll'
+gem 'html-proofer'
+gem 'jemoji'
+gem 'jekyll-mentions'
+gem 'jekyll-seo-tag'
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'
+gem 'jekyll-gist'
